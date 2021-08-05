@@ -1,0 +1,10 @@
+3. Which web tool has impressed you the most and why?
+React is the one which impresses me the most. It's easy to start with, can build reusable components, fast render due to virtual DOM.
+React allows us to create SPA that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.   
+
+4. Given a web application, how do you choose a JS framework to solve?
+I would first check the requirements of the project and depending on some factors like is it fast enough or not, ease of installation, familiarity with the framework and scalability.
+
+5. How much of the Unix command line are you familiar with? Give some examples.
+I've always worked on linux system, so I'm quite familiar with terminal.
+I know commands related to installation, directories, interaction with git e.g. sudo, cd, ls, mkdir, pwd, etc.

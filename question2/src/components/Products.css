@@ -1,0 +1,38 @@
+.products {
+    margin-left: 22%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow: hidden;
+    background: white;
+    margin:10px;
+    height: 220px;
+    width: 150px;
+    text-align: center;
+}
+
+.product-image{
+    width:150px;
+    height:150px;
+}
+
+.card h3,h5{
+    margin: 0;
+}
+
+.cart-button {
+    padding:5px 20px;
+    background-color: white;
+    border: none;
+    border:solid 2px rgb(131, 206, 181);
+}
+
+.cart-button:hover {
+    background-color: aliceblue;
+}

@@ -1,0 +1,30 @@
+.sidebar-container {
+    position: fixed;
+    margin: 10px;
+    padding: 5px;
+    height:100%;
+    width:20%;
+    display: block;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.sidebar-container p{
+    padding: 10px;
+    margin: 30px;
+    border:solid 2px rgb(43, 36, 36);
+    border-radius: 15px;
+    
+}
+
+.sidebar-container p:hover{
+    background-color: rgb(198, 237, 224);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .sidebar-container{
+        display: none;
+    }
+}

@@ -1,0 +1,110 @@
+.modal {
+  z-index: 100;
+  position: fixed;
+  top: 10vh;
+  width: 80%;
+  margin-left:25%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+}
+
+.modal__header {
+  width: 100;
+  padding:0;
+  background: white;
+  color: rgb(89, 173, 145);
+  border-bottom: solid 1px rgb(43, 36, 36);
+}
+
+.arrow {
+  position: relative;
+  margin:-65px 0px 0px 80%; 
+}
+
+.modal__header h2 {
+  margin: 0.5rem;
+}
+
+.modal__content {
+  padding: 1rem 0.5rem;
+}
+
+.cart-card{
+  display: flex;
+  padding:20px;
+  border:solid 1px gray;
+  margin:5px
+}
+
+.cart-card img{
+  width: 100px;
+  height: 100px;
+}
+
+.cart-card h3{
+  margin: 0;
+}
+
+.quantity {
+  display: block;
+ text-align: center;
+  margin:10px 0px;
+}
+.quantity h3 {
+  border:solid 1px gray;
+  padding:2px;
+}
+.remove{
+  margin-top: 70px;
+  margin-left:50px;
+}
+
+.remove button {
+    background-color: white;
+    border: none;
+    border:solid 2px rgb(131, 206, 181);
+}
+.modal__footer {
+  padding: 1rem 0.5rem;
+}
+
+.total {
+  display: flex;
+  margin:2px 50px;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+
+.modal-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.modal-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.modal-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.map-container{
+  height: 20 rem;
+  width: 100%;
+
+}
+
+.modal-exit-active {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms;
+}

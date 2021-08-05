@@ -1,0 +1,44 @@
+
+.main-header{
+    display: flex;
+    height: 50px;
+    background-color: rgb(131, 206, 181);
+    align-items: center;
+    width: auto;
+}
+
+.product-name {
+    text-decoration: none !important;
+    padding:5px;
+     color: rgb(43, 36, 36);
+}
+
+.icons{
+    padding:10px;
+    position: absolute;
+    right:0%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.icons h3{
+    margin: 15px;
+    color: rgb(43, 36, 36);
+}
+
+.modal-button{
+    background-color: rgb(131, 206, 181);
+    color:white;
+    border-radius:20px;
+    padding:1px 5px;
+}
+
+.user-image{
+    margin:5px -10px 0px 10px ;
+    height: 40px;
+    width:40px;
+    border-radius: 25px;
+}
+
+
