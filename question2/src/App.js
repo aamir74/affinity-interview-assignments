@@ -23,11 +23,11 @@ const App = () => {
       }
     >
       <Router>
-        <MainNavigation />
+        {/* <MainNavigation /> */}
         <Switch>
           <Route path='/' exact>
             <HomePage />
-          </Route>
+          </Route>  
           <Redirect to='/' />
         </Switch>
       </Router>

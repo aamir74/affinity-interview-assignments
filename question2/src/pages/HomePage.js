@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar'
 import mensData from '../menProducts'
 import womensData from '../womenProducts'
 import childrensData from '../childrenProducts'
+import './HomePage.css'
 
 const HomePage = () => {
 
@@ -17,10 +18,15 @@ const HomePage = () => {
     }
 
     return (
-        <div style={{ display: 'flex' }}>
-            <Sidebar categoryHandler={categoryHandler} />
-            <Products productData={categoryData} />
-        </div>
+        <>
+            <MainNavigation categoryHandler={categoryHandler} />
+            <div style={{ display: 'flex' }}>
+                <div className="category-sidebar">
+                    <Sidebar categoryHandler={categoryHandler} />
+                </div>
+                <Products productData={categoryData} />
+            </div>
+        </>
     )
 }
 

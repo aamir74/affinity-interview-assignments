@@ -1,0 +1,9 @@
+.category-sidebar{
+    width:20%;
+}
+
+@media (max-width: 768px) {
+    .category-sidebar{
+        display: none;
+    }
+}
